@@ -18,6 +18,6 @@ deploy:
   bucket_name: 'elasticbeanstalk-ca-central-1-088993821011'
   bucket_path: 'Docker-React-Travis Integration Check'
   on:
-    branch: master
+    all_branches: true
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
