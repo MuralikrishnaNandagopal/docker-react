@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: 'ca-central-1'
-  app: 'Docker-React-Travis Integration Check'
-  env: 'travistesting'
+  app: 'docker'
+  env: 'react-env'
   bucket_name: 'elasticbeanstalk-ca-central-1-088993821011'
-  bucket_path: 'Docker-React-Travis Integration Check'
+  bucket_path: 'docker'
   on:
     all_branches: true
   access_key_id: $AWS_ACCESS_KEY
